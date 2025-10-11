@@ -1,0 +1,94 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement for Stōr
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! We'd love to hear your ideas for improving Stōr.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a problem? Please describe.
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see
+      placeholder: I would like to be able to...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: Which area of the app does this feature relate to?
+      options:
+        - Lists (creating, managing, organizing)
+        - Categories (customization, organization)
+        - Items (adding, editing, managing)
+        - Shopping Experience (checking off items, viewing)
+        - Suggestions & Learning
+        - User Interface & Design
+        - Sharing & Collaboration
+        - Sync & Backup
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Critical - I can't use the app effectively without it
+        - High - This would significantly improve my experience
+        - Medium - Nice to have
+        - Low - Just an idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: I currently work around this by...
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Describe a specific scenario where this feature would be useful
+      placeholder: |
+        Example: When I'm shopping at multiple stores in one trip, I want to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockups or Examples
+      description: If applicable, add mockups, screenshots from other apps, or visual examples
+      placeholder: Drag and drop images here or provide links to examples
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't been requested before
+          required: true
+        - label: This feature aligns with Stōr's purpose as a shopping list app
+          required: true
+
