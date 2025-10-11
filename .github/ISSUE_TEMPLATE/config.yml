@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation & Support
+    url: https://github.com/toringer/Stor-app/blob/main/README.md
+    about: Check out the documentation for help with common questions
+  - name: 💬 General Questions
+    url: https://github.com/toringer/Stor-app/discussions
+    about: Ask questions and discuss with the community
+
