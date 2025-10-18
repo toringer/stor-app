@@ -32,9 +32,17 @@ Stōr is a beautifully designed shopping list app that helps you organize your s
 
 ### 🎯 Shopping Made Easy
 - **Check Off Items**: Tap any item to mark it as shopped
-- **Two View Modes**: Toggle between categorized view and simple list view
+- **Swipe to Shop**: Quickly mark items as shopped with an intuitive swipe gesture
+- **Two View Modes**: Toggle between grouped categories view and simple list view
 - **Swipe Actions**: Swipe left on items to quickly edit or remove
+- **Edit Mode**: Delete items directly from the edit view with improved controls
 - **Batch Delete**: Remove all shopped items at once when you're done
+
+### ☁️ iCloud Sync
+- **Seamless Synchronization**: Your shopping lists automatically sync across all your Apple devices
+- **Real-time Updates**: Changes made on one device appear instantly on your other devices
+- **Secure Storage**: All data is securely stored in your private iCloud account
+- **Automatic Backup**: Your lists are safely backed up and always available
 
 ### 🔄 Smart Learning
 - **Frequent Items per List**: The app learns which items you buy regularly for each specific list
@@ -43,6 +51,16 @@ Stōr is a beautifully designed shopping list app that helps you organize your s
 - **Context-Aware Suggestions**: Suggestions are tailored to the list you're currently using
 
 ## 📖 Quick Start Guide
+
+### Setting Up iCloud Sync
+
+**To enable iCloud sync (recommended):**
+1. Make sure you're signed in to iCloud on your device (Settings → [Your Name])
+2. iCloud sync is automatically enabled for Stōr
+3. Your lists will sync across all your Apple devices signed in with the same Apple ID
+4. Changes appear in real-time on your other devices
+
+**Note:** If this is your first time opening Stōr with iCloud enabled, the app will check for existing cloud data before loading default categories.
 
 ### Creating and Managing Lists
 
@@ -87,6 +105,7 @@ Stōr is a beautifully designed shopping list app that helps you organize your s
 
 **To check off an item:**
 - Tap anywhere on the item to mark it as shopped
+- **Swipe right** on the item for quick shopping action
 - Tap again to uncheck it
 
 **To edit an item:**
@@ -100,8 +119,8 @@ Stōr is a beautifully designed shopping list app that helps you organize your s
 - Add notes (brand preferences, size, etc.)
 
 **To delete an item:**
-- Swipe left on the item
-- Tap "Remove"
+- **Swipe left** on the item and tap "Remove", or
+- **In edit mode**: Open the item and use the delete option in the edit view
 
 ### Working with Categories
 
@@ -164,6 +183,12 @@ After shopping:
 
 ## 💡 Pro Tips
 
+### iCloud Sync Best Practices
+- **Keep devices signed in**: Ensure all your devices are signed in to the same iCloud account
+- **Check sync status**: Changes should appear within seconds on your other devices
+- **Wi-Fi or cellular**: iCloud sync works on both Wi-Fi and cellular data
+- **Add on one device, shop on another**: Add items on your iPhone at home, then access the same list on your iPad while shopping
+
 ### Multiple Lists Strategy
 - **Create list per store**: Keep separate lists for different stores with store-specific categories
 - **Special occasion lists**: Birthday party supplies, camping trips, etc.
@@ -190,7 +215,7 @@ After shopping:
 
 ## 🔒 Privacy
 
-Your data is stored **locally on your device** using iOS secure storage. We don't collect, transmit, or store any of your shopping list data on external servers. Your information stays completely private and under your control.
+Your data is stored securely using **iCloud** and syncs across your Apple devices when you're signed in to iCloud. We don't collect, transmit, or store any of your shopping list data on external servers—everything stays in your private iCloud account. Your information is completely private and under your control. If you prefer not to use iCloud sync, you can disable iCloud for Stōr in your device settings, and your data will remain local only.
 
 ## 📮 Support
 
@@ -198,17 +223,6 @@ Need help or have a suggestion?
 
 - **GitHub Issues**: [Report a bug or request a feature](https://github.com/toringer/Stor-app/issues)
 
-## 🆕 What's New
-
-### Latest Updates
-- **Multiple Shopping Lists**: Create unlimited lists for different stores and purposes
-- **List-Specific Categories**: Each list has its own custom categories
-- **Independent Learning**: Frequent items tracked separately per list
-- **Smart Category Prompts**: Automatically prompted to categorize new items
-- **Enhanced List Management**: Create, rename, delete, and reorder lists
-- **Improved UI**: Beautiful category selection interface
-- Two view modes: Categories and List
-- Collapsible category sections
 
 ## ❓ Frequently Asked Questions
 
@@ -222,13 +236,16 @@ A: No, each list has its own set of categories. This allows you to customize cat
 A: No, new lists start empty. This gives you complete flexibility to create only the categories you need. The initial "Shopping List" comes with 10 default categories to help you get started.
 
 **Q: Can I sync my lists between devices?**
-A: Currently, Stōr stores data locally on your device. Cloud sync is planned for a future update.
+A: Yes! As of version 1.4.0, Stōr supports iCloud sync. Make sure you're signed in to iCloud on all your devices, and your shopping lists will automatically sync across your iPhone, iPad, and other Apple devices.
+
+**Q: How do I enable iCloud sync?**
+A: iCloud sync is enabled automatically when you're signed in to iCloud on your device. If you want to disable sync, go to Settings → [Your Name] → iCloud and toggle off Stōr.
 
 **Q: Can I share my list with family members?**
-A: List sharing is not currently available but is on our roadmap for future releases.
+A: List sharing with family members is not currently available but is on our roadmap for future releases. Currently, iCloud sync only works across your own devices.
 
 **Q: How do I backup my data?**
-A: Your data is included in your device's iCloud backup if you have that enabled.
+A: Your data is automatically backed up to iCloud when iCloud sync is enabled. If you disable iCloud sync, your data is included in your device's local iCloud backup.
 
 **Q: Why are different items suggested for different lists?**
 A: Each list learns independently. Frequent items are tracked per list, so your grocery list suggestions won't appear in your hardware store list.
